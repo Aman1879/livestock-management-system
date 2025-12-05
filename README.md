@@ -1,3 +1,9 @@
+## Live Website
+
+Check out the live version of the Livestock Management System here:  
+[Apna Livestock Management System](https://apnalivestock.42web.io)
+
+
 # Apna Livestock Management System
 
 A comprehensive PHP web application for managing livestock, including animal inventory, health records, feeding costs, and reporting.
