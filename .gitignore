@@ -1,0 +1,67 @@
+# PHP
+*.log
+*.cache
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Configuration files with sensitive data
+config/config.php
+config/database.php
+
+# Uploaded files (user content)
+assets/images/uploads/*
+!assets/images/uploads/.htaccess
+!assets/images/uploads/.gitkeep
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# XAMPP specific
+xampp/
+
+# Composer (if used)
+/vendor/
+composer.lock
+
+# Node modules (if used)
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test files (optional - uncomment if you don't want to include tests)
+# tests/
+
+# Large video files (optional - uncomment if videos are too large)
+# assets/videos/*
+
+# Temporary files
+tmp/
+temp/
+cache/
+
