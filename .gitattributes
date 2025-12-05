@@ -1,6 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
 # Explicitly declare text files you want to always be normalized and converted
 # to native line endings on checkout.
 *.php text eol=lf
@@ -10,7 +9,6 @@
 *.md text eol=lf
 *.json text eol=lf
 *.sql text eol=lf
-
 # Denote all files that are truly binary and should not be modified.
 *.jpg binary
 *.jpeg binary
@@ -18,7 +16,6 @@
 *.gif binary
 *.ico binary
 *.pdf binary
-*.mp4 binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp3 binary
 *.zip binary
-
